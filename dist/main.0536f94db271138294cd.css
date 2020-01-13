@@ -1,0 +1,12 @@
+body {
+    height: 10000px;
+    background: url(img/备案检查表.1f52892e.JPG);
+}
+
+body {
+  width: 10000px;
+  display: -webkit-box;
+  line-clamp: 3;
+  box-orient: vertical;
+}
+

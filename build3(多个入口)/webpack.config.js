@@ -18,7 +18,7 @@ module.exports = {
       chunks: ['main'] //对应暴露出的入口
     }),
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, '../public/index.html'),
+      template: path.resolve(__dirname, '../public/header.html'),
       filename: "header.html",//对应相应地模板
       chunks: ['header'] //对应暴露出的入口
     }),
